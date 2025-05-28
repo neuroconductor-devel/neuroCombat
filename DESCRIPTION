@@ -9,7 +9,8 @@ Depends: R (>= 3.6.0),
     utils 
 Imports: 
     BiocParallel,
-    matrixStats
+    matrixStats,
+    SummarizedExperiment
 Suggests:
     BiocStyle,
     knitr,
@@ -17,7 +18,8 @@ Suggests:
     rmarkdown,
     testthat
 Remotes:
-    bioc::release/BiocParallel,
+    bioc::BiocParallel,
+    bioc::SummarizedExperiment,
     github::Jfortin1/neuroCombatData
 Description: Harmonization of multi-site imaging data with ComBat.
 LazyData: TRUE
